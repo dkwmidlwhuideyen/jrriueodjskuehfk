@@ -1,0 +1,16 @@
+name: loll
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: LOL
+    runs-on: windows-latest
+    timeout-minutes: 1
+    
+    steps:
+      - name: hi
+        run: |
+          cmd /k "echo %~f0"
+          cmd /k "echo Hi, so um this pc is running windows lel"
